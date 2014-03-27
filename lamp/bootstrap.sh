@@ -10,5 +10,6 @@ apt-get install -y libapache2-mod-php5
 apt-get install -y php5-mysql
 apt-get install -y git
 apt-get install -y vim
+#sudo apt-get install mailutils
 rm -rf /var/www
 ln -fs /vagrant /var/www
