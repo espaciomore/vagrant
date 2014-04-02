@@ -11,6 +11,8 @@ apt-get update
 #sudo checkinstall -y --install=no --pkgversion $(echo $(pwd) | sed -n -re's/.+node-v(.+)$/\1/p') make -j$(($(nproc)+1)) install
 #sudo dpkg -i node_*
 apt-get install -y nodejs
+apt-get install -y npm
+#npm config set strict-ssl false
 apt-get install -y git
 apt-get install -y vim
 
